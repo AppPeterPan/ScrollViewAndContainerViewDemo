@@ -3,27 +3,36 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B25F47624F3911400A760CD /* ItunesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B25F47524F3911400A760CD /* ItunesService.swift */; };
+		9B25F47824F3A25C00A760CD /* ItunesFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B25F47724F3A25C00A760CD /* ItunesFeed.swift */; };
+		9B25F47B24F3A7E100A760CD /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 9B25F47A24F3A7E100A760CD /* Kingfisher */; };
 		9B6BDFD524F3721300A00C85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6BDFD424F3721300A00C85 /* AppDelegate.swift */; };
 		9B6BDFD724F3721300A00C85 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6BDFD624F3721300A00C85 /* SceneDelegate.swift */; };
-		9B6BDFD924F3721300A00C85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6BDFD824F3721300A00C85 /* ViewController.swift */; };
 		9B6BDFDC24F3721300A00C85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B6BDFDA24F3721300A00C85 /* Main.storyboard */; };
 		9B6BDFDE24F3721600A00C85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B6BDFDD24F3721600A00C85 /* Assets.xcassets */; };
 		9B6BDFE124F3721600A00C85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B6BDFDF24F3721600A00C85 /* LaunchScreen.storyboard */; };
+		9B6BDFE924F3774800A00C85 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6BDFE824F3774800A00C85 /* HomeViewController.swift */; };
+		9B6BDFEB24F38FB200A00C85 /* MovieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6BDFEA24F38FB200A00C85 /* MovieTableViewController.swift */; };
+		9B6BDFED24F38FB900A00C85 /* MusicTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6BDFEC24F38FB900A00C85 /* MusicTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B25F47524F3911400A760CD /* ItunesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesService.swift; sourceTree = "<group>"; };
+		9B25F47724F3A25C00A760CD /* ItunesFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesFeed.swift; sourceTree = "<group>"; };
 		9B6BDFD124F3721300A00C85 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B6BDFD424F3721300A00C85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B6BDFD624F3721300A00C85 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9B6BDFD824F3721300A00C85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9B6BDFDB24F3721300A00C85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9B6BDFDD24F3721600A00C85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B6BDFE024F3721600A00C85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B6BDFE224F3721600A00C85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B6BDFE824F3774800A00C85 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9B6BDFEA24F38FB200A00C85 /* MovieTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewController.swift; sourceTree = "<group>"; };
+		9B6BDFEC24F38FB900A00C85 /* MusicTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B25F47B24F3A7E100A760CD /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,8 +68,12 @@
 			children = (
 				9B6BDFD424F3721300A00C85 /* AppDelegate.swift */,
 				9B6BDFD624F3721300A00C85 /* SceneDelegate.swift */,
-				9B6BDFD824F3721300A00C85 /* ViewController.swift */,
+				9B6BDFEA24F38FB200A00C85 /* MovieTableViewController.swift */,
+				9B6BDFEC24F38FB900A00C85 /* MusicTableViewController.swift */,
 				9B6BDFDA24F3721300A00C85 /* Main.storyboard */,
+				9B25F47524F3911400A760CD /* ItunesService.swift */,
+				9B25F47724F3A25C00A760CD /* ItunesFeed.swift */,
+				9B6BDFE824F3774800A00C85 /* HomeViewController.swift */,
 				9B6BDFDD24F3721600A00C85 /* Assets.xcassets */,
 				9B6BDFDF24F3721600A00C85 /* LaunchScreen.storyboard */,
 				9B6BDFE224F3721600A00C85 /* Info.plist */,
@@ -83,6 +97,9 @@
 			dependencies = (
 			);
 			name = Demo;
+			packageProductDependencies = (
+				9B25F47A24F3A7E100A760CD /* Kingfisher */,
+			);
 			productName = Demo;
 			productReference = 9B6BDFD124F3721300A00C85 /* Demo.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +128,9 @@
 				Base,
 			);
 			mainGroup = 9B6BDFC824F3721300A00C85;
+			packageReferences = (
+				9B25F47924F3A7E100A760CD /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 9B6BDFD224F3721300A00C85 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +158,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B6BDFD924F3721300A00C85 /* ViewController.swift in Sources */,
+				9B6BDFEB24F38FB200A00C85 /* MovieTableViewController.swift in Sources */,
 				9B6BDFD524F3721300A00C85 /* AppDelegate.swift in Sources */,
+				9B25F47624F3911400A760CD /* ItunesService.swift in Sources */,
+				9B25F47824F3A25C00A760CD /* ItunesFeed.swift in Sources */,
 				9B6BDFD724F3721300A00C85 /* SceneDelegate.swift in Sources */,
+				9B6BDFE924F3774800A00C85 /* HomeViewController.swift in Sources */,
+				9B6BDFED24F38FB900A00C85 /* MusicTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +362,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9B25F47924F3A7E100A760CD /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.15.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9B25F47A24F3A7E100A760CD /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9B25F47924F3A7E100A760CD /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9B6BDFC924F3721300A00C85 /* Project object */;
 }
